@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:supabase_auth/utilities/buttons.dart';
-import 'package:supabase_auth/utilities/custom_richtext.dart';
+import 'package:supabase_auth/utilities/main_page_richtext.dart';
 
 class BottomContainer extends StatelessWidget {
   final double height;
@@ -42,7 +42,7 @@ class BottomContainer extends StatelessWidget {
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
-                const CustomRichText(),
+                const MainPageRichText(),
                 CustomButtons.heartButton(),
               ],
             ),

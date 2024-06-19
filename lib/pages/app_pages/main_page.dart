@@ -24,7 +24,7 @@ class _MainPageState extends State<MainHomePage> {
   late double container1TopMargin;
   late double container2Height;
   late double container2Width;
-  late double container1BotttomMargin;
+  late double container1BottomMargin;
   late double container2BottomMargin;
   late double borderRadius;
   late double containerBorderWidth;
@@ -49,7 +49,7 @@ class _MainPageState extends State<MainHomePage> {
     container2Height = dimensions.height(66.16);
     container2Width = dimensions.width(84.07);
     container2BottomMargin = dimensions.height(36.38);
-    container1BotttomMargin = dimensions.height(9.38);
+    container1BottomMargin = dimensions.height(9.38);
     borderRadius = dimensions.width(3.54);
     containerBorderWidth = 1.5;
 
@@ -84,7 +84,7 @@ class _MainPageState extends State<MainHomePage> {
               height: container1Height,
               width: container1Width,
               topMargin: container1TopMargin,
-              bottomMargin: container1BotttomMargin,
+              bottomMargin: container1BottomMargin,
               backgroundColor: mainPageContainer1Background,
               borderRadius: borderRadius,
               borderColor: mainThemeColor,

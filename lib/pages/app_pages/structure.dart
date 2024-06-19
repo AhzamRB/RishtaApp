@@ -74,7 +74,7 @@ class _MainPageState extends State<MainPage> {
           color: MainColors.navigationBackground,
           buttonBackgroundColor: MainColors.primaryBackground,
           animationDuration: const Duration(milliseconds: 300),
-          height: 45,
+          height: 60,
           items: [
             buildNavigationBackground('./assets/icons/Profile.png', 0),
             buildNavigationBackground('./assets/icons/Messages.png', 1),
@@ -115,13 +115,13 @@ class _MainPageState extends State<MainPage> {
 
   Widget buildNavigationBackground(String iconPath, int index) {
     return Container(
-      margin: const EdgeInsets.only(top: 6, bottom: 10),
+      margin: const EdgeInsets.only(top: 10, bottom: 6),
       // padding: const EdgeInsets.all(20),
       child: ImageIcon(
         AssetImage(iconPath),
         color:
             pageStateIndex == index ? MainColors.mainThemeColor : Colors.white,
-        size: 25,
+        size: 40,
       ),
     );
   }
